@@ -30,7 +30,7 @@
 	&__close-btn {
 	}
 	&__list {
-		@extend %font-cormorant-400;
+		// @extend %font-cormorant-400;
 		font-size: 24px;
 		line-height: normal;
 	}
@@ -41,7 +41,7 @@
 		color: #000;
 	}
 	&__list-addi {
-		@extend %font-open-sans-300;
+		// @extend %font-open-sans-300;
 		font-size: 14px;
 	}
 	&__item-addi {

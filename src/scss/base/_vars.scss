@@ -5,12 +5,13 @@
 	// --font-main: 'Roboto', 'Arial', sans-serif;
 	// --font-accent: 'Playfair Display', serif;
 
-	--color-page-bg: #2c8659;
-	--color-text: #ffffff;
-	--color-accent: #000;
-	--color-main: #2b4074;
-	--color-secondary: #f7f2ea;
-	--color-descr: #9b9b9b;
+	--color-page-bg: #ffece1;
+	// --color-text: #ffffff;
+	--color-green: #649483;
+	--color-orange: #dc7017;
+	// --color-main: #2b4074;
+	// --color-secondary: #f7f2ea;
+	// --color-descr: #9b9b9b;
 
 	--laptop-size: 1199px;
 	--tablet-size: 959px;
@@ -28,53 +29,18 @@ $mobile-size: 599px;
 	--text-color: #fff;
 }
 
-%font-open-sans-300 {
+%font-clear-sans-400 {
 	font: {
-		family: 'Open Sans';
-		weight: 300;
+		family: 'Clear Sans';
+		weight: 400;
 		style: normal;
 	}
 }
 
-%font-open-sans-400 {
+%font-clear-sans-700 {
 	font: {
-		family: 'Open Sans';
-		weight: 400;
-		style: normal;
-	}
-}
-%font-open-sans-600 {
-	font: {
-		family: 'Open Sans';
-		weight: 600;
-		style: normal;
-	}
-}
-%font-open-sans-300-i {
-	font: {
-		family: 'Open Sans';
-		weight: 300;
-		style: italic;
-	}
-}
-%font-cormorant-400 {
-	font: {
-		family: 'Cormorant';
-		weight: 400;
-		style: normal;
-	}
-}
-%font-cormorant-300-i {
-	font: {
-		family: 'Cormorant';
-		weight: 300;
-		style: italic;
-	}
-}
-%font-cormorant-600 {
-	font: {
-		family: 'Cormorant';
-		weight: 600;
+		family: 'Clear Sans';
+		weight: 700;
 		style: normal;
 	}
 }
