@@ -6,8 +6,10 @@
 	&__img {
 	}
 	&__img-title {
+		color: var(--color-green);
+		@extend %font-clear-sans-700;
 	}
-	&__img-descr {
+	&__img-descr {color: var(--color-green);font-size: 15px;
 	}
 	&__title {
 		color: var(--color-orange);
@@ -33,6 +35,9 @@
 	}
 	&__slider-descr {
 		text-transform: uppercase;
+		writing-mode: vertical-rl;
+		transform: rotate(-180deg);
+		text-align: center;
 	}
 	&__slider-list {
 		display: flex;
