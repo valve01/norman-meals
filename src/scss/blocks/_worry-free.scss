@@ -1,22 +1,38 @@
 .worry-free {
 	&__container {
+		column-gap: 100px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 	&__image-block {
+		margin-left: 60px;
+		text-align: center;
 	}
 	&__img {
+		margin-top: 147px;
+		margin-bottom: 33px;
 	}
 	&__img-title {
 		color: var(--color-green);
 		@extend %font-clear-sans-700;
+		margin-bottom: 13px;
 	}
-	&__img-descr {color: var(--color-green);font-size: 15px;
+	&__img-descr {
+		color: var(--color-green);
+		font-size: 15px;
+		text-transform: capitalize;
+		margin: 0 auto 74px;
+		max-width: 400px;
 	}
 	&__title {
 		color: var(--color-orange);
+		max-width: 500px;
 	}
 }
 
 .title-block {
+	max-width: 50%;
 	&__btns {
 		@extend %font-clear-sans-700;
 		display: flex;
@@ -25,13 +41,15 @@
 		margin-bottom: 74px;
 	}
 	&__slider {
+		position: absolute;
+		right: 0;
+		left: calc(50% + 115px);
 		background-color: var(--color-orange);
-		margin-right: -15px;
+		// margin-right: -15px;
 		border-radius: 28px 0 0 28px;
 		padding: 20px 60px 24px 30px;
 		color: var(--color-page-bg);
 		display: flex;
-		text-orientation: sideways;
 	}
 	&__slider-descr {
 		text-transform: uppercase;
