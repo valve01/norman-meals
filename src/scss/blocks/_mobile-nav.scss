@@ -1,5 +1,4 @@
 
-
 .mobile-nav {
 	&__menu {
 		&:has(.mobile-nav--active) {
@@ -54,7 +53,6 @@
 	&__icons {
 		background-color: var(--color-descr);
 		display: flex;
-	
 		padding: 20px 80px;
 		justify-content: space-between;
 	}
@@ -73,17 +71,8 @@ body:has(.mobile-nav--active) {
 .mobile-nav__wrapper.mobile-nav--active {
 	top: 0;
 }
-.active {
-}
-.svg-icons--mobile-nav-search-dims,
-.svg-icons--mobile-nav-cart-dims,
-.svg-icons--mobile-nav-user-dims {
-	height: 32px;
-	width: 32px;
-	background-color: var(--color-page-bg);
-	padding: 6px;
-	border-radius: 4px;
-}
+
+
 .svg-icons--cross-dims {
 	height: 20px;
 	width: 20px;
