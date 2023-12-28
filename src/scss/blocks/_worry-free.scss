@@ -4,7 +4,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		// background-image: url('img/sprite.svg#bg--bg-Shape-1');
+		position: relative;
 	}
 	&__image-block {
 		margin-left: 60px;
@@ -34,6 +34,7 @@
 }
 
 .title-block {
+	margin-top: -200px;
 	max-width: 50%;
 	&__btns {
 		@extend %font-clear-sans-700;
@@ -47,7 +48,7 @@
 		right: 0;
 		left: calc(50% + 115px);
 		background-color: var(--color-orange);
-		// margin-right: -15px;
+
 		border-radius: 28px 0 0 28px;
 		padding: 20px 40px 24px 20px;
 		color: var(--color-page-bg);
@@ -81,7 +82,6 @@
 	&__next-btn-img {
 	}
 }
-
 .start-link {
 	color: var(--color-page-bg);
 }
@@ -103,9 +103,15 @@
 .svg-bg--bg-Shape-1-dims {
 	position: absolute;
 	left: 0px;
-	top: -150px;
+	top: -300px;
 	max-width: 1400px;
 	max-height: 1200px;
 	z-index: -1;
-
+}
+.svg-bg--bg-Shape-2-dims {
+	position: absolute;
+	right: 0px;
+	bottom: -50px;
+	max-width: 500px;
+	z-index: -1;
 }
