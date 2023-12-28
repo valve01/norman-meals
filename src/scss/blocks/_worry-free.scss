@@ -37,10 +37,10 @@
 	margin-top: -200px;
 	max-width: 50%;
 	&__btns {
-		@extend %font-clear-sans-700;
+		// @extend %font-clear-sans-700;
 		display: flex;
-		text-transform: uppercase;
-		font-size: 18px;
+		// text-transform: uppercase;
+		// font-size: 18px;
 		margin-bottom: 74px;
 	}
 	&__slider {
@@ -86,19 +86,13 @@
 	color: var(--color-page-bg);
 }
 .start {
-	background-color: var(--color-green);
-	border-radius: 14px;
-	padding: 8px 14px;
-	border: var(--color-green) 3px solid;
+	@extend %green-item-style;
 	margin-right: 20px;
 }
 .learn-link {
 }
 .learn {
-	color: var(--color-green);
-	border: var(--color-green) 3px solid;
-	border-radius: 14px;
-	padding: 8px 14px;
+	@extend %whige-item-style;
 }
 .svg-bg--bg-Shape-1-dims {
 	position: absolute;

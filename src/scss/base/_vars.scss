@@ -44,3 +44,33 @@ $mobile-size: 599px;
 		style: normal;
 	}
 }
+
+%green-item-style {
+	border: var(--color-green) 3px solid;
+	background-color: var(--color-green);
+	color: var(--color-page-bg);
+	text-transform: uppercase;
+	padding: 8px 16px;
+	border-radius: 14px;
+	font: {
+		family: 'Clear Sans';
+		weight: 700;
+		style: normal;
+		size: 18px;
+	}
+}
+
+%whige-item-style {
+	border: var(--color-green) 3px solid;
+	background-color: var(--color-page-bg);
+	color: var(--color-green);
+	text-transform: uppercase;
+	padding: 8px 16px;
+	border-radius: 14px;
+	font: {
+		family: 'Clear Sans';
+		weight: 700;
+		style: normal;
+		size: 18px;
+	}
+}
