@@ -1,0 +1,55 @@
+.current {
+	&__container {
+		position: relative;
+		display: flex;
+		column-gap: 78px;
+		margin: 115px auto;
+		align-items: center;
+		justify-content: center;
+	}
+	&__main-img {
+	}
+	&__title-block {
+		max-width: 40%;
+	}
+	&__title {
+		color: var(--color-orange);
+	}
+	&__subtitle {
+		color: var(--color-green);
+		margin-bottom: 20px;
+	}
+	&__descr {
+		color: var(--color-green);
+		margin-bottom: 43px;
+		max-width: 700px;
+	}
+	&__offer-list {
+		display: flex;
+		column-gap: 23px;
+	}
+	&__offer-item {
+		position: relative;
+	}
+	&__offer-link {
+	}
+	&__offer-img {
+	}
+	&__offer-label {
+		@extend %green-item-style;
+		display: inline-block;
+		position: absolute;
+		left: 0;
+		bottom: -17px;
+	}
+	&__img-container {
+	}
+}
+
+.svg-bg--bg-Shape-3-dims {
+	position: absolute;
+	max-width: 550px;
+	top: -155px;
+	left: 0;
+	z-index: -1;
+}

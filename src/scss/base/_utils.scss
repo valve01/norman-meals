@@ -19,15 +19,24 @@
 	overflow-y: hidden;
 }
 
-.shading{
+.shading {
 	background-color: rgba(27, 27, 27, 0.877);
 }
 
 .title {
-
 	font-size: 96px;
 	@extend %font-clear-sans-700;
 	line-height: 92px;
 	margin-bottom: 30px;
 	text-transform: capitalize;
+}
+.subtitle {
+	text-transform: uppercase;
+	font-size: 18px;
+	@extend %font-clear-sans-700;
+}
+
+.descr {
+	font-size: 18px;
+	@extend %font-clear-sans-400;
 }
