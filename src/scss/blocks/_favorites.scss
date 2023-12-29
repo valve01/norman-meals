@@ -1,7 +1,7 @@
 .favorites {
 	background-color: var(--color-green);
 	&__container {
-		padding: 120px 0;
+		padding: 100px 0;
 		color: var(--color-page-bg);
 	}
 	&__title {
@@ -18,6 +18,7 @@
 		column-gap: 25px;
 	}
 	&__item {
+
 		padding: 0 60px;
 		text-align: center;
 		border-radius: 28px;
