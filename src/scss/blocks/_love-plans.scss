@@ -5,6 +5,7 @@
 		display: flex;
 		position: relative;
 		max-width: 1200px;
+		align-items: center;
 		// padding:  0 15px;
 	}
 	&__title-block {
@@ -34,8 +35,8 @@
 		background-color: var(--color-orange);
 		width: calc((100vw - 1200px) / 2 + 290px);
 		z-index: -1;
-		margin-top: -170px;
-		margin-bottom: -170px;
+		margin-top: -220px;
+		margin-bottom: -220px;
 	}
 	&__subtitle {
 		margin-top: 23px;
@@ -50,14 +51,19 @@
 		margin: 70px auto 0 50px;
 		// padding: 0 20px;
 	}
+	&__sideblock-content-link {
+		display: inline-block;
+		cursor: pointer;
+		z-index: 1;
+	}
 }
 
 .svg-bg--bg-Shape-recipes-4-dims {
 	position: absolute;
-	left: 0px;
-	top: -500px;
-	max-width: 1400px;
-	max-height: 1200px;
+	left: -100px;
+	bottom: -400px;
+	max-width: 3000px;
+	// max-height: 2000px;
 	z-index: -1;
 }
 .title {
