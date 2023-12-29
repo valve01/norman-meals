@@ -1,0 +1,76 @@
+.love-plans {
+	&__container {
+		column-gap: 68px;
+		margin: 170px auto;
+		display: flex;
+		position: relative;
+		max-width: 1200px;
+		// padding:  0 15px;
+	}
+	&__title-block {
+	}
+	&__title {
+		color: var(--color-orange);
+	}
+	&__descr {
+		color: var(--color-green);
+		margin-bottom: 30px;
+	}
+	&__btns {
+		display: flex;
+	}
+	&__image-block {
+		flex-shrink: 0;
+		position: relative;
+	}
+	&__img {
+	}
+	&__sideblock {
+		border-radius: 28px 0 0 28px;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: calc((100vw - 1200px) / (-2));
+		background-color: var(--color-orange);
+		width: calc((100vw - 1200px) / 2 + 290px);
+		z-index: -1;
+		margin-top: -170px;
+		margin-bottom: -170px;
+	}
+	&__subtitle {
+		margin-top: 23px;
+		color: var(--color-page-bg);
+	}
+	&__sideblock-content {
+		max-width: 300px;
+		display: flex;
+		flex-direction: column;
+		align-items: end;
+		text-align: right;
+		margin: 70px auto 0 50px;
+		// padding: 0 20px;
+	}
+}
+
+.svg-bg--bg-Shape-recipes-4-dims {
+	position: absolute;
+	left: 0px;
+	top: -500px;
+	max-width: 1400px;
+	max-height: 1200px;
+	z-index: -1;
+}
+.title {
+}
+.descr {
+}
+.start-link {
+}
+.start {
+}
+.learn-link {
+}
+.learn {
+}
+.svg-icons--arrow-dims {
+}
