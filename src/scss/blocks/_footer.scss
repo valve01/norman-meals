@@ -44,6 +44,7 @@
 		text-transform: capitalize;
 		font-size: 18px;
 		margin-bottom: 20px;
+		color: var(--color-page-bg);
 		&:last-child {
 			margin-bottom: 0;
 		}
@@ -60,6 +61,7 @@
 		border-radius: 14px;
 		&::placeholder {
 			text-transform: capitalize;
+			color: rgba(209, 209, 209, 0.4);
 		}
 	}
 	&__submit-btn {
