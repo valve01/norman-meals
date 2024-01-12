@@ -24,12 +24,11 @@
 		flex-shrink: 0;
 		position: relative;
 	}
-	&__img {	
-
+	&__img {
 	}
 	&__image-container {
 		position: relative;
-
+		z-index: 1;
 	}
 	&__subtitle-link {
 	}
@@ -39,7 +38,7 @@
 		top: 0;
 		bottom: 0;
 
-		right: calc((100vw - 1200px) / (-2) + 9px );
+		right: calc((100vw - 1200px) / (-2) + 9px);
 		background-color: var(--color-orange);
 		width: calc((100vw - 1200px) / 2 + 290px);
 		margin-top: -211px;
@@ -48,7 +47,6 @@
 	&__subtitle {
 		margin-top: 23px;
 		color: var(--color-page-bg);
-
 	}
 	&__sideblock-content {
 		max-width: 300px;
